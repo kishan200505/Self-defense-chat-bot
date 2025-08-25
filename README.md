@@ -4,7 +4,7 @@ A prototype chatbot that provides simple, safety-oriented responses. Built with 
 ## Status 
 - **prototype**: Works for predfined prompts.
 - Knowns issues: Not yet robust to free-form input; some environments may need dependencies installed.
-- 
+
 ## Features 
 - Predfined Q&A for 10+ common queries
 - Basic GUI (Tkinter)
