@@ -20,9 +20,16 @@ A prototype chatbot that provides simple, safety-oriented responses. Built with 
   - Voice: pyttsx (text-to-speech), SpeechRecognition (voice input)
 
 ## Setup
-'''bash 
-python -m venv .venv
+- Clone the repository
+- Create a virtual environment
+- Install dependencies : pip install nltk scikit-learn pyttsx3 SpeechRecognition pillow requests twilio
+- Configure credentials:
+- Run the app
 
-# Windows 
-.venv/Scripts/activate
-pip install -r requirements.txt 
+## Known Limitations
+- Hardcoded Responses: The chatbot uses a static knowledge base, limiting free-form input handling.
+- Single Contact: Supports only one phone and email contact
+- Dependencies: Requires internet for voice recognition and API calls.
+
+# License
+MIT 
